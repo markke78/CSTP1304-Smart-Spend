@@ -1,0 +1,223 @@
+.bg-gradient {
+  background: #C9D6FF;
+  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+}
+
+
+.cards-divider {
+  border-radius: 20px;
+  background: #e2d561;
+  padding: 1em 0 4em;
+  position: relative;
+}
+
+.blue .cards-divider {
+  background: #cc4287;
+}
+
+.green .cards-divider {
+  background: #2f70e9;
+}
+
+.red b {
+  color: #C64545
+}
+
+.blue b {
+  color: #2D5772
+}
+
+.green b {
+  color: #1AA85C
+}
+
+.cards-divider-img {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+}
+
+.deco-layer {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+}
+
+.btn-expen {
+  background: #c6459b;
+  color: #fff;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-income {
+  background: #4567c6;
+  color: #fff;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.img-float {
+  width: 50px;
+  position: absolute;
+  top: -3.5rem;
+  right: 1rem
+}
+
+.cards-item {
+  transition: all 150ms ease-out;
+}
+
+.cards-item:hover {
+  transform: scale(1.05);
+}
+
+.cards-item:hover .deco-layer--1 {
+  -webkit-transform: translate3d(15px, 0, 0);
+  transform: translate3d(15px, 0, 0);
+}
+
+.cards-item:hover .deco-layer--2 {
+  -webkit-transform: translate3d(-15px, 0, 0);
+  transform: translate3d(-15px, 0, 0);
+}
+
+#flotcontainer {
+  width: 500px;
+  height: 400px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+    
+}
+
+th {
+  height: 70px;
+}
+
+#table-1 thead,
+#table-1 tr {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(235, 242, 224);
+}
+
+#table-2 thead,
+#table-2 tr{
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(242, 224, 238);
+}
+
+#table-1 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(235, 242, 224);
+}
+
+#table-2 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(242, 224, 238);
+}
+
+#table-1 td,
+#table-1 th {
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: Verdana;
+  color: rgb(233, 99, 128);
+}
+
+#table-2 td,
+#table-2 th {
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: Verdana;
+  color: rgb(96, 96, 165);
+}
+
+.even1 {
+  background: rgb(235, 182, 217)
+}
+
+.odd1 {
+  background: #FFF
+}
+
+.even2 {
+  background: rgb(193, 198, 241)
+}
+
+.odd2 {
+  background: #FFF
+}
+
+.pic {
+  width: 100%;
+
+  margin: 50px;
+  border: 2px solid;
+}
+
+.pic img {
+  object-fit: contain;
+  width: 100%;
+
+}
+
+td {
+  width:15%;
+  word-wrap:break-word;
+}
+
+.goal{
+
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      background-color: #3d3d3d;
+      border-radius: 20px;
+    
+}
+
+
+.barChart{
+      width: 100%;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row .same-height {
+  display: flex;
+  flex-direction: column;
+}
+
+.round-bottom {
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
