@@ -108,6 +108,7 @@ function printItemsTableIncome(){
     const newTableContainerIncome = document.querySelector("#newTableContainer-1");
     newTableContainerIncome.appendChild(newTable1);
     totalIcome();
+    chartDisplay();
 }
 
 function totalIcome(){
@@ -116,7 +117,7 @@ function totalIcome(){
     income.forEach( item => {
         total += parseInt(item.amount);
     })
-    document.getElementById("total-1").innerHTML = "Your total income is : $"+total;
+    document.getElementById("total-1").innerHTML = "Your total income : $"+total;
     return total;
 }
 

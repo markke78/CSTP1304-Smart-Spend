@@ -105,6 +105,7 @@ function printItemsTable(){
     const newTableContainer = document.querySelector("#newTableContainer");
     newTableContainer.appendChild(newTable);
     totalPrice();
+    chartDisplay();
 }
 
 function totalPrice(){
@@ -113,7 +114,7 @@ function totalPrice(){
     expense.forEach( item => {
         total += parseInt(item.price);
     })
-    document.getElementById("total").innerHTML = "Your total expenses is : $"+total;
+    document.getElementById("total").innerHTML = "Your total expenses : $"+total;
     return total;
 }
 
