@@ -65,6 +65,7 @@ function addItemIcome() {
 
     //Call print itemsTable
     printItemsTableIncome()
+    chartDisplay();
 
 }
 
@@ -108,7 +109,7 @@ function printItemsTableIncome(){
     const newTableContainerIncome = document.querySelector("#newTableContainer-1");
     newTableContainerIncome.appendChild(newTable1);
     totalIcome();
-    chartDisplay();
+    
 }
 
 function totalIcome(){

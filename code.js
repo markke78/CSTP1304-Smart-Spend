@@ -23,6 +23,12 @@ function chartDisplay(){
         }
     });
 
+    let goalPrice = document.getElementById('iphone').innerText;
+    let goalReached = goalPrice-(inCart-outCart);
+    document.getElementById("reached").innerHTML = "You need $"+goalReached + " to reach your goal";
+
 }
+
+
 
 chartDisplay();

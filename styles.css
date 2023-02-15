@@ -5,6 +5,7 @@
 }
 
 
+
 .cards-divider {
   border-radius: 20px;
   background: #e2d561;
@@ -160,8 +161,8 @@ th {
 .pic {
   width: 100%;
 
-  margin: 50px;
-  border: 2px solid;
+  margin-bottom: 10px;
+  
 }
 
 .pic img {
@@ -183,8 +184,8 @@ td {
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-      background-color: #3d3d3d;
-      border-radius: 20px;
+
+    
     
 }
 
@@ -214,6 +215,10 @@ td {
 .round-bottom {
   border-radius: 20px;
 }
+
+ h3 {
+   display: inline;
+ }
 
 
 

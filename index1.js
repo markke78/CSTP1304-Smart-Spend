@@ -64,6 +64,7 @@ function addItem() {
 
     //Call print itemsTable
     printItemsTable()
+    chartDisplay();
 
 }
 
@@ -105,7 +106,7 @@ function printItemsTable(){
     const newTableContainer = document.querySelector("#newTableContainer");
     newTableContainer.appendChild(newTable);
     totalPrice();
-    chartDisplay();
+    
 }
 
 function totalPrice(){
