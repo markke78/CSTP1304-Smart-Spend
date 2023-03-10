@@ -96,9 +96,9 @@ table {
     
 }
 
-th {
+/* th {
   height: 70px;
-}
+} */
 
 #table-1 thead,
 #table-1 tr {
@@ -128,7 +128,7 @@ th {
 
 #table-1 td,
 #table-1 th {
-  padding: 5px 10px;
+  padding: 5px 5px;
   font-size: 10px;
   font-family: Verdana;
   color: rgb(233, 99, 128);
@@ -136,7 +136,7 @@ th {
 
 #table-2 td,
 #table-2 th {
-  padding: 5px 10px;
+  padding: 5px 5px;
   font-size: 10px;
   font-family: Verdana;
   color: rgb(96, 96, 165);

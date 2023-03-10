@@ -25,7 +25,12 @@ function chartDisplay(){
 
     let goalPrice = document.getElementById('iphone').innerText;
     let goalReached = goalPrice-(inCart-outCart);
-    document.getElementById("reached").innerHTML = "You need $"+goalReached + " to reach your goal";
+    if (goalReached <=0){
+        document.getElementById("reached").innerHTML = "You've reached your goal and go to get it now!!";
+    }else{
+        document.getElementById("reached").innerHTML = "You need $"+goalReached + " to reach your goal";
+    }
+    
 
 }
 

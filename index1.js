@@ -4,17 +4,17 @@ function history() {
         "product": "food",
         "price": "2000",
         "category": "grocery",
-        "date": "8/19/2020",
+        "date": "2023-01-19",
         }, {
         "product": "coffee",
         "price": "12",
         "category": "meal",
-        "date": "8/16/2020",
+        "date": "2023-01-18",
         }, {
         "product": "Computer",
         "price": "1500",
         "category": "education",
-        "date": "8/15/2020",
+        "date": "2023-01-22",
     }]
     //Clear the current items
     //clearItems()
@@ -106,7 +106,15 @@ function printItemsTable(){
     const newTableContainer = document.querySelector("#newTableContainer");
     newTableContainer.appendChild(newTable);
     totalPrice();
+    cleanstring1();
     
+}
+
+const cleanstring1 = () =>{
+    document.getElementById("expense").value = "";
+    document.getElementById("product").value = "";
+    document.getElementById("category").value = "Choose Category";
+    document.getElementById("date").value = "";
 }
 
 function totalPrice(){
@@ -115,6 +123,7 @@ function totalPrice(){
     expense.forEach( item => {
         total += parseInt(item.price);
     })
+    
     document.getElementById("total").innerHTML = "Your total expenses : $"+total;
     return total;
 }

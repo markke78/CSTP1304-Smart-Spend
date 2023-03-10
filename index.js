@@ -4,17 +4,17 @@ function historyIncome() {
         "income": "salary",
         "amount": "3000",
         "category": "salary",
-        "date": "8/19/2020",
+        "date": "2023-01-16",
         }, {
         "income": "refund",
         "amount": "120",
         "category": "rental",
-        "date": "8/16/2020",
+        "date": "2023-01-14",
         }, {
         "income": "interest",
         "amount": "50",
         "category": "investment",
-        "date": "8/15/2020",
+        "date": "2023-01-31",
     }]
     //Clear the current items
     //clearItems()
@@ -60,8 +60,6 @@ function addItemIcome() {
 
     //Push the whole array back up to LocalStorage
     localStorage.setItem('incomeItems', JSON.stringify(income))
-
-
 
     //Call print itemsTable
     printItemsTableIncome()
@@ -109,6 +107,17 @@ function printItemsTableIncome(){
     const newTableContainerIncome = document.querySelector("#newTableContainer-1");
     newTableContainerIncome.appendChild(newTable1);
     totalIcome();
+    cleanstring();
+    
+}
+
+
+const cleanstring = () =>{
+    document.getElementById("money").value = "";
+    document.getElementById("incomeName").value = "";
+    document.getElementById("inCategory").value = "Choose Category";
+    document.getElementById("IDate").value = "";
+    
     
 }
 
